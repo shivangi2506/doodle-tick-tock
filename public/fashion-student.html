@@ -4,65 +4,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fashion Portfolio - Student</title>
+    <title>NIFT - Fashion Portfolio</title>
     <link rel="stylesheet" href="/fashion-style.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-container">
-            <h1>Fashion Portfolio</h1>
-            <div class="nav-links">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-    </nav>
+    <table border="1" width="100%" height="100%">
+        <tr height="20%">
+            <td colspan="3" align="center" class="header">
+                <img src="/lovable-uploads/ef5e42e5-8a02-4fc3-9e92-2e0a3778d416.png" width="120px" height="120px" style="float: left;" alt="NIFT Logo">
+                <font size="6" color="white">National Institute of Fashion Technology</font>
+                <marquee class="welcome-text">Welcome to Fashion Portfolio</marquee>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td width="12%" class="sidebar">
+                <a href="#home">Home</a><hr>
+                <a href="#about">About</a><hr>
+                <a href="#portfolio">Portfolio</a><hr>
+                <a href="#contact">Contact</a><hr>
+                <a href="#signup">Sign Up</a>
+            </td>
+            <td width="76%">
+                <section id="home" class="hero">
+                    <div class="slideshow-container">
+                        <div class="slide fade">
+                            <img src="/lovable-uploads/8f987689-19dd-4a9d-8ff9-da07edc4f542.png" alt="Fashion Design 1">
+                        </div>
+                        <div class="slide fade">
+                            <img src="/lovable-uploads/c81ab661-8591-4ef6-af03-7c09eeb6dfb7.png" alt="Fashion Design 2">
+                        </div>
+                        <div class="slide fade">
+                            <img src="/lovable-uploads/5e5e2fac-e5b6-4548-bf21-2e93b46861d1.png" alt="Fashion Design 3">
+                        </div>
+                    </div>
+                </section>
 
-    <section id="home" class="hero">
-        <div class="slideshow-container">
-            <div class="slide fade">
-                <img src="/lovable-uploads/8f987689-19dd-4a9d-8ff9-da07edc4f542.png" alt="Fashion Design 1">
-            </div>
-            <div class="slide fade">
-                <img src="/lovable-uploads/c81ab661-8591-4ef6-af03-7c09eeb6dfb7.png" alt="Fashion Design 2">
-            </div>
-            <div class="slide fade">
-                <img src="/lovable-uploads/5e5e2fac-e5b6-4548-bf21-2e93b46861d1.png" alt="Fashion Design 3">
-            </div>
-        </div>
-    </section>
+                <section id="about">
+                    <h2>About NIFT</h2>
+                    <div class="content-box">
+                        <p><blockquote cite="https://nift.ac.in/">
+                            Set up in 1986, <abbr title="National Institute of Fashion Technology">NIFT</abbr> is the pioneering institute of fashion education in India and has been in the vanguard of providing professional human resource to the textile and apparel industry. It was made a statutory institute in 2006 by an Act of the Indian Parliament with the <mark>President of India</mark> as 'Visitor' and has full-fledged campuses all across the country.
+                        </blockquote></p>
+                    </div>
+                </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Fashion Management Student passionate about creating innovative designs and exploring the intersection of art and fashion.</p>
-    </section>
+                <section id="portfolio">
+                    <h2>Portfolio Gallery</h2>
+                    <div class="gallery">
+                        <div class="gallery-item">
+                            <img src="/lovable-uploads/9c860111-8dc3-4e8c-9e55-01161c41dc4c.png" alt="Design 1">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="/lovable-uploads/6b4f18b0-df05-4c49-b03d-551c4780cd45.png" alt="Design 2">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="/lovable-uploads/2890e669-a5b3-4b15-9d10-d1b893f6f716.png" alt="Design 3">
+                        </div>
+                    </div>
+                </section>
 
-    <section id="portfolio">
-        <h2>My Portfolio</h2>
-        <div class="gallery">
-            <div class="gallery-item">
-                <img src="/lovable-uploads/9c860111-8dc3-4e8c-9e55-01161c41dc4c.png" alt="Design 1">
-            </div>
-            <div class="gallery-item">
-                <img src="/lovable-uploads/6b4f18b0-df05-4c49-b03d-551c4780cd45.png" alt="Design 2">
-            </div>
-            <div class="gallery-item">
-                <img src="/lovable-uploads/2890e669-a5b3-4b15-9d10-d1b893f6f716.png" alt="Design 3">
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form>
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <textarea placeholder="Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
+                <section id="contact">
+                    <h2>Contact Us</h2>
+                    <form class="contact-form">
+                        <table class="form-table">
+                            <tr>
+                                <td>Name:</td>
+                                <td><input type="text" required></td>
+                            </tr>
+                            <tr>
+                                <td>Email:</td>
+                                <td><input type="email" required></td>
+                            </tr>
+                            <tr>
+                                <td>Message:</td>
+                                <td><textarea required></textarea></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <button type="submit">Send Message</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </section>
+            </td>
+            <td width="12%" class="sidebar-right">
+                <div class="advertisement">
+                    <a href="#" target="_blank">
+                        <img src="/lovable-uploads/04897dd7-bd4f-4465-b504-0895a1577432.png" width="100%" height="200px" alt="Ad 1">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="/lovable-uploads/76ef1e5e-0bdc-4cc4-847f-c13d52738e36.png" width="100%" height="200px" alt="Ad 2">
+                    </a>
+                </div>
+            </td>
+        </tr>
+        <tr height="15%">
+            <td colspan="3" class="footer">
+                <p>© 2024 NIFT. All rights reserved.</p>
+            </td>
+        </tr>
+    </table>
 
     <script>
         let slideIndex = 0;
