@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Clock, Heart, Star, Rocket } from "lucide-react";
@@ -10,23 +9,37 @@ const Index = () => {
     {
       id: 1,
       name: "Space Explorer",
-      image: "/lovable-uploads/04897dd7-bd4f-4465-b504-0895a1577432.png",
+      image: "/lovable-uploads/8f987689-19dd-4a9d-8ff9-da07edc4f542.png",
       price: "₹1,499",
       category: "Space"
     },
     {
       id: 2,
       name: "Rainbow Hearts",
-      image: "/lovable-uploads/76ef1e5e-0bdc-4cc4-847f-c13d52738e36.png",
+      image: "/lovable-uploads/c81ab661-8591-4ef6-af03-7c09eeb6dfb7.png",
       price: "₹1,299",
       category: "Love"
     },
     {
       id: 3,
       name: "Doodle Dreams",
-      image: "/lovable-uploads/2c1f9514-2cd5-42c5-80cd-5de6bca35766.png",
+      image: "/lovable-uploads/5e5e2fac-e5b6-4548-bf21-2e93b46861d1.png",
       price: "₹1,399",
       category: "Art"
+    },
+    {
+      id: 4,
+      name: "Monochrome Magic",
+      image: "/lovable-uploads/9c860111-8dc3-4e8c-9e55-01161c41dc4c.png",
+      price: "₹1,599",
+      category: "Art"
+    },
+    {
+      id: 5,
+      name: "Rainbow Collection",
+      image: "/lovable-uploads/6b4f18b0-df05-4c49-b03d-551c4780cd45.png",
+      price: "₹1,699",
+      category: "Collection"
     }
   ];
 
@@ -77,28 +90,23 @@ const Index = () => {
       {/* Features Section */}
       <section className="py-20 bg-gradient-to-b from-white to-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl text-center mb-16">Why Kids Love Us</h2>
-          <div className="grid md:grid-cols-4 gap-8">
+          <h2 className="text-4xl text-center mb-16">What Makes Us Special?</h2>
+          <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                icon: Clock,
-                title: "Learn Time Fun",
-                description: "Makes telling time an adventure"
+                icon: Star,
+                title: "Hand-drawn Designs",
+                description: "Inspired by real kids' doodles"
               },
               {
                 icon: Heart,
-                title: "Safe & Comfy",
-                description: "Kid-friendly materials"
-              },
-              {
-                icon: Star,
-                title: "Creative Design",
-                description: "Inspired by kids' doodles"
+                title: "Ultra-Durable Build",
+                description: "Perfect for everyday adventures"
               },
               {
                 icon: Rocket,
-                title: "Adventure Ready",
-                description: "Durable for daily fun"
+                title: "Eco-Friendly Packaging",
+                description: "Because we care about the planet"
               }
             ].map((feature, i) => (
               <motion.div
@@ -162,7 +170,7 @@ const Index = () => {
               alt="DoodleTick Logo"
               className="w-48 mx-auto mb-8"
             />
-            <h2 className="text-4xl mb-8">Our Story</h2>
+            <h2 className="text-4xl mb-8">The Story of DoodleTick</h2>
             <p className="text-xl text-gray-600 mb-8">
               Every kid loves to doodle! We turned that love into a fun, wearable
               experience. DoodleTick is more than just a watch—it's a creative
